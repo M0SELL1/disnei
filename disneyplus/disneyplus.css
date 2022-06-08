@@ -1,0 +1,72 @@
+@font-face{
+    font-family: "Avenir Roman";
+    src: url("avenir-roman.ttf") format(truetype);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://cnbl-cdn.bamgrid.com/assets/9c19f2f2ab0efaf3496de0cefde7c8429d73be6285ff1de6bb215f328f2f8990/original) no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/*div{
+    padding-bottom: 50em;
+}*/
+
+.logo{
+    max-width: 20em;
+    margin: 1.5em;
+}
+
+.hero-content{
+    padding-left: 6em;
+    text-align: center;
+    height: 45vh;
+}
+
+.oferta-combo{
+    background: #6525fc;
+    height: 3.5em;
+    width: 32em;
+    margin-bottom: 9em;
+    margin: 1em;
+    color: #f9f9f9;
+    align-items: center;
+    border-radius: .1em;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    transition: all .2s ease 0s;
+    font-family: "Avenir Roman", sans-serif;
+    font-size: 1.2em;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.footnote{
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 1em;
+    /*line-height: 26px;*/
+    font-family: Avenir,sans-serif;
+    font-weight: 350;
+    letter-spacing: .05em;
+    text-decoration: underline;
+}
+
+h1{
+    font-family: "Avenir Roman", sans-serif;
+    font-size: 1.5em;
+    /*line-height: 38px;*/
+    letter-spacing: .05em;
+    color: #f9f9f9;
+}
+
