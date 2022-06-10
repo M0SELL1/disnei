@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Entrar | Disney+</title>
+    <link rel="stylesheet" href="entrardisneyplus.css">
 </head>
 <body>
-    <img class="logo" src="https://cnbl-cdn.bamgrid.com/assets/7ecc8bcb60ad77193058d63e321bd21cbac2fc67281dbd9927676ea4a4c83594/original" alt="Disney Plus">
-    
-    <h1>Use o seu email para entrar</h1>
-
-    <p class="login">continuar</p>
-    <p class="footnote">Não tem Disney+? Assine</p>
-    
+   <div>
+        <div style="flex: 1; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <img class="logo" src="https://cnbl-cdn.bamgrid.com/assets/7ecc8bcb60ad77193058d63e321bd21cbac2fc67281dbd9927676ea4a4c83594/original" alt="Disney Plus">
+            <h1>Use o seu email para entrar</h1>
+            <!-- <form class="text-box" action="/url" method="GET">
+                <input type="text" placeholder="E-mail">
+            </form> -->
+            <span style="position: relative; display: block">
+                <!-- <input type="text"> -->
+                <input aria-label="E-mail" display="inline" id="email" maxlength name="email" placeholder="E-mail" type="email" 
+                data-gv2elementkey="email" data-gv2interactionkey="email" class="sc-jAaTju fmqfIm sc-eqIVtm csbJFj text-color--primary body-copy form-input-text" 
+                value>
+            </span>
+        </div>
+        <div style="flex: 1; height: 100%; display: flex; justify-content: flex-end">
+            <p class="button1">continuar</p>
+        </div>
+        <p class="footnote">Não tem Disney+? Assine</p>
+    </div>
 </body>
 </html>
