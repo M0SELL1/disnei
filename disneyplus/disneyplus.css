@@ -17,10 +17,6 @@ body{
     align-items: center;
 }
 
-div{
-    padding-bottom: 50em;
-}
-
 .box{
     display: flex;
 }
@@ -84,6 +80,7 @@ div{
     font-size: 1.2em;
     letter-spacing: .08em;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .card-plano{
@@ -153,10 +150,6 @@ div{
 .shows{
     max-width: 25em;
     margin: .5em; 
-}
-
-.baixe-filmes-series{
-    background: url(https://cnbl-cdn.bamgrid.com/assets/36b498725697f2dad5b28c08358207cf7d86f6e81d5476c00d1f25f4178d4d6c/original);
 }
 
 .perguntas-frequentes{
